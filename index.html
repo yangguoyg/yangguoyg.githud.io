@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 100px auto;
+    }
+    
+    #box {
+        width: 612px;
+        height: 124px;
+        margin: 0 auto;
+        padding: 0;
+        border: 1px solid black;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .i1 {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        background-color: black;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 64px;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+    }
+    
+    .i2 {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        background-color: black;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 64px;
+        position: absolute;
+        top: 2px;
+        left: 124px;
+    }
+    
+    .i3 {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        background-color: black;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 64px;
+        position: absolute;
+        top: 2px;
+        left: 246px;
+    }
+    
+    .i4 {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        background-color: black;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 64px;
+        position: absolute;
+        top: 2px;
+        left: 368px;
+    }
+    
+    .i5 {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        background-color: black;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 64px;
+        position: absolute;
+        top: 2px;
+        left: 490px;
+    }
+    
+    .i6 {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        background-color: black;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 64px;
+        position: absolute;
+        top: 2px;
+        left: 612px;
+    }
+    
+    .i7 {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        background-color: black;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 64px;
+        position: absolute;
+        top: 2px;
+        left: 734px;
+    }
+    
+    .i8 {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        background-color: black;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 64px;
+        position: absolute;
+        top: 2px;
+        left: 856px;
+    }
+    
+    .i9 {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        background-color: black;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 64px;
+        position: absolute;
+        top: 2px;
+        left: 978px;
+    }
+    
+    .i10 {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        background-color: black;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 64px;
+        position: absolute;
+        top: 2px;
+        left: 1100px;
+    }
+    
+    @keyframes donghua {
+        from {
+            width: 612px;
+            height: 120px;
+            opacity: 1;
+            position: absolute;
+            left: 2px;
+        }
+        20% {
+            width: 612px;
+            height: 120px;
+            opacity: 1;
+            position: absolute;
+            left: -124px;
+        }
+        40% {
+            width: 612px;
+            height: 120px;
+            opacity: 1;
+            position: absolute;
+            left: -246px;
+        }
+        60% {
+            width: 612px;
+            height: 120px;
+            opacity: 1;
+            position: absolute;
+            left: -368px;
+        }
+        80% {
+            width: 612px;
+            height: 120px;
+            opacity: 1;
+            position: absolute;
+            left: -490px;
+        }
+        to {
+            width: 612px;
+            height: 120px;
+            opacity: 1;
+            position: absolute;
+            left: -612px;
+        }
+    }
+    
+    #box1 {
+        animation-name: donghua;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+    }
+    
+    #box1:hover {
+        animation-play-state: paused;
+    }
+</style>
+
+<body>
+    <div id="box">
+        <div id="box1">
+            <div class="i1">1</div>
+            <div class="i2">2</div>
+            <div class="i3">3</div>
+            <div class="i4">4</div>
+            <div class="i5">5</div>
+            <div class="i6">1</div>
+            <div class="i7">2</div>
+            <div class="i8">3</div>
+            <div class="i9">4</div>
+            <div class="i10">5</div>
+        </div>
+    </div>
+</body>
+
+</html>
